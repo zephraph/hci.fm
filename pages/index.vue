@@ -5,7 +5,7 @@ const route = useRoute()
 <template>
   <crt>
     <h1>HCI.FM</h1>
-    <h2>A podcast exploring more human computing experiences</h2>
+    <h2>A podcast exploring a more human computing experience</h2>
   </crt>
 </template>
 
