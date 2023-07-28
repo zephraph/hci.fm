@@ -7,4 +7,15 @@ export default defineNuxtConfig({
       VT323: true,
     },
   },
+  app: {
+    head: {
+      script: [
+        {
+          defer: true,
+          "data-domain": "hci.fm",
+          src: "https://plausible.io/js/script.js",
+        },
+      ],
+    },
+  },
 });
